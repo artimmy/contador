@@ -7,9 +7,11 @@
 
 body {
     font: 400 25px Roboto, sans-serif;
+    color: white;
     background: #000000;
     -webkit-font-smothins: antialiasing;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
+

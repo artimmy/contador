@@ -17,10 +17,27 @@
         <h3 style="color: rgb(155, 155, 155)">Informe uma data</h3>
 
         <div class="input-box">
-            <input type="date" id="date" name="date" placeholder="DD/MM/AAAA">
+            <input type="date" id="date" name="date" required>
 
-            <button type="button">Iniciar contagem</button>
+            <button type="button" onclick="countdown()">Iniciar contagem</button>
+
+            
         </div>
+
+        <h2 id="day">00</h2>
+        <span>Dias</span>
+    
+    
+        <h2 id="hou">00</h2>
+        <span>Horas</span>
+    
+    
+        <h2 id="min">00</h2>
+        <span>Minutos</span>
+    
+    
+        <h2 id="sec">00</h2>
+        <span>Segundos</span>
 
     </div>
 </body>

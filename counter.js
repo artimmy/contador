@@ -19,7 +19,6 @@ function queryString(parameter) {
     if (param_value) {
 
         // Set the date we're counting down to by getting the value from the input sent here by the url
-    
         var countDownDate = new Date(param_value).getTime();
         
         // Update the count down every 1 second
@@ -45,20 +44,29 @@ function queryString(parameter) {
 
             // If the count down is over, write some text 
             if (distance < 0) {
+
                 clearInterval(x);
                 document.getElementById("day").innerHTML = "00"; 
                 document.getElementById("hou").innerHTML = "00";
                 document.getElementById("min").innerHTML = "00";
                 document.getElementById("sec").innerHTML = "00"; 
+                //When time reaches 00 param_value goes back to false
+                param_value = false;
             }
         }, 1000);
 
-        // acresentar aqui algo para fazer quando o tempo acabar como trocar de pagina alem de zerar o relogio
+        // acresentar aqui algo para fazer quando o tempo acabar como trocar de pagina
 
     } else {
         console.log("date not found, or something else");
     }
+
 }
 
 var variavel = queryString("minhaVariavel");
+
+//When the button restart is pressed it goes back to index
+function reiniciar() {
+    window.location = "index.html";
+}
 

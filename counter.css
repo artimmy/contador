@@ -6,12 +6,67 @@
 }
 
 body {
+    height: 100%;
     font: 400 25px Roboto, sans-serif;
     color: white;
     background: #000000;
     -webkit-font-smothins: antialiasing;
-    display: flex;
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.faltam {
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: #191A18;
+    margin-bottom: 30px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 30px;
+}
+
+h2 {
+    font-size: 135px;
+    font-weight: 400;
+}
+span {
+    color: #21EB00;
+    font-size: 40px;
+}
+
+.reiniciar {
+    width:  170px;
+    height: 53px;
+    background-color:  #21EB00;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 27px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.contador {
+    color: #21EB00;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
 

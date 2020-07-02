@@ -7,7 +7,7 @@
 
 body {
     font: 400 25px Roboto, sans-serif;
-    background: #a7a7a7;
+    background: #000000;
     -webkit-font-smothins: antialiasing;
     display: flex;
     justify-content: center;
@@ -30,7 +30,6 @@ body {
 
 .center {
     padding: 200px 0;
-  
 }
 
 input{

@@ -11,7 +11,7 @@
     <br />
     <a href="https://github.com/Lorenalgm/contador">Desafio</a>
     ·
-    <a href="https://www.linkedin.com/in/lorenagmontes/">Contato</a>
+    <a href="https://www.linkedin.com/in/arthurangelo/">Contato</a>
   </p>
 </p>
 

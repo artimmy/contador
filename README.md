@@ -72,4 +72,4 @@ Você pode utilizar do google fonts.
 Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
 Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
 
-Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
+Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> desafio aceito e concluido por <a href="https://github.com/artimmy">Arthur</a> :)
